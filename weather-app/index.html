@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Wheather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gird.css">
+    <link href="https://fonts.googleapis.com/css?family=Neucha|Amatic+SC|Gloria+Hallelujah|Cabin+Sketch|Calligraffitti" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <div id = "app">
+            <div class="Weather-app_title"><h1>Quick<br><span>- Weather -</span></h1></div>
+            <div class="main-app">
+                <form class="city-form">
+                    <input type="text" class="city-input" type="text" placeholder="Enter a location">
+                    <button type="submit" class="get-weather-button"></button>
+                </form>
+                <div class="city-weather"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlvobAu8R5OBGi26uhlE1pCidBAcp_eF0&libraries=places"></script>
+    <script src="app.js"></script>
+</body>
+</html>

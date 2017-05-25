@@ -1,0 +1,147 @@
+body {
+    font-size: 16px;
+    background-color: #d3eeff;
+    margin: 0px;
+}
+
+.background {
+    background-image: url(background_img.jpg);
+    background-size: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: black; 
+    font-size: 40px;
+}
+
+span {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Neucha', cursive;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    justify-content:center;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    -webkit-transition: 1s;
+    margin-left: 0px;
+    font-size: 16px;
+    padding: 10px 5px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    width: 175px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+input[type=text]:focus {
+    border-bottom: 2px solid black;
+}
+
+input[type=text]:focus::placeholder {
+    -webkit-transition: 1s;
+    color: transparent;
+}
+
+button[type=submit], input[type=reset] {
+    display: none;
+}
+
+.pac-item{
+    font-family: 'Amatic SC', cursive;
+    border-radius: 5%;
+}
+.pac-container{
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    background-color: transparent;
+}
+
+#app{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.city-weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    color: black;
+    margin-top: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.currentWeather {
+    display: flex;
+    flex-direction: column;
+}
+.currentWeather_icon {
+   margin: 10px; 
+   display: flex;
+   justify-content: center;
+}
+
+.currentWeather_img {
+    height: 150px;
+    width: 150px;
+}
+
+.currentWeather_info {
+    margin: 10px;
+    text-align: center;
+}
+
+.forecast {
+    display: flex;
+}
+
+.one-day {
+    margin: 20px;
+    box-shadow: 0px 5px 12px #607D8B;
+    text-align: center;
+    border-radius: 5%;
+    height: 275px;
+    background-color: #b9e2fe;
+    /*max-width: 350px;*/
+    
+}
+
+.oneDay-img {
+    height: 50px;
+    width: 50px
+}
+
+.oneDay-title {
+    padding-top: 10px;
+}
+.oneDay-info {
+    font-size: 15px;
+}
